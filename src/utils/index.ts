@@ -39,6 +39,11 @@ export {
   fetchNameRoles,
 }
 
+// The `./utils` bundle carries its own copy of the constants module — expose
+// the setter here too so apps importing only from this entry can configure it.
+export { setIdentityKitApiUrls } from '../constants'
+export type { IdentityKitApiUrls } from '../constants'
+
 export * from './siwe'
 export * from './profile'
 export * from './loaders'

@@ -128,10 +128,12 @@ export {
   COIN_TYPES,
   SOCIAL_RECORDS,
   ADDRESS_LABELS,
+  setIdentityKitApiUrls,
 } from './constants'
 
 // Constant Types
 export type { Chain } from './constants/chains'
+export type { IdentityKitApiUrls } from './constants'
 
 // Components
 export {
